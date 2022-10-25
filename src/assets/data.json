@@ -1,0 +1,831 @@
+{
+	"sections": [
+		{
+			"section": "Organizational hierarchy and management",
+			"questions": [
+				{
+					"question": "What personnel are responsible for setting risk policies of the organization ?",
+					"answers": [
+						{
+							"answer": "Top level managers/CEO/CTO/CISO",
+							"score": 4
+						},
+						{
+							"answer": "Middle level managers",
+							"score": 2
+						},
+						{
+							"answer": "Team leaders",
+							"score": 1
+						},
+						{
+							"answer": "No policy is set",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization have a formal risk management policy ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization have any policies or controls established to deal with information security risks relating to third parties ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization comply to any security related standard (ISO 27001, NIST standards) ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does company policy describe roles and responsibilities of users that use external/third party systems/system components/system services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization keep records of documents relevant to third parties (e.g.- SLAs, contracts, agreements)?",
+					"answers":[
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization established safeguards to ensure that documents related to third-parties are secure ?",
+					"answers":[
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization have alternate storage sites for information that is held in external/third-party systems/system components/system services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "If so, does the security of the alternate site match to a reasonable degree the security of the original site ? (if an alternate site is used)",
+					"answers":[
+						{
+							"answer": "Similar safeguards have been implemented",
+							"score": 4
+						},
+						{
+							"answer": "Partial safeguards have been implemented",
+							"score": 2
+						},
+						{
+							"answer": "No safeguards are implemented",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Have third-parties been made aware of POCs (Point of Contact)?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": " Does the organization have an incident response plan/policy ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score"	: 0
+						}
+					]
+				},
+				{
+					"question": "Does the plan cover information security risks related to third parties? (if a plan is available)",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				}
+			],
+			"maxScore": 48
+		},
+		{
+			"section": "Risk assessment",
+			"questions": [
+				{
+					"question": "Does the organization have a record/list of all information assets that are/a part of/stored can be accessed by any external/third party system/system components/system service ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Are these assets categorized based on importance/confidentiality for the organization ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization conducted a formal risk assessment ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "How often does the organization conduct risk assessments ?",
+					"answers": [
+						{
+							"answer": "Quarterly",
+							"score": 4
+						},
+						{
+							"answer": "Annually",
+							"score": 2
+						},
+						{
+							"answer": "2-5 years",
+							"score": 1
+						},
+						{
+							"answer": "Never",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Are risks associated with third parties and external/third-party systems/system components/system services considered in the risk assessment process ?",
+					"answers" : [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Are the risks determined and evaluated through risk assessments communicated to relevant authorized parties ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "Yes",
+							"score": 0
+						}
+					]
+				}
+			],
+			"maxScore": 24
+		},
+		{
+			"section": "Assessments and Agreements",
+			"questions": [
+				{
+					"question": "Does the organization have a formal Service Level Agreement with all third-parties ?",
+					"answers": [
+						{
+							"answer": "Yes, with all of them",
+							"score": 4
+						},
+						{
+							"answer": "Yes, with some of them",
+							"score": 2
+						},
+						{
+							"answer": "No service level agreement was formed",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization perform security screening before obtaining/implementing an external/third-party system/system component/system service ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization perform security audits on controls implemented to protect against third-party information security risks ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Are external/third-party software licenses kept up to date ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				}
+			],
+			"maxScore": 16
+		},
+		{
+			"section": "Information and External systems and services",
+			"questions": [
+				{
+					"question": "Who manages the IT environment of the organizaion ?",
+					"answers": [
+						{
+							"answer": "Dedicated IT department",
+							"score": 4
+						},
+						{
+							"answer": "Consultants",
+							"score": 2
+						},
+						{
+							"answer": "Office staff",
+							"score": 1
+						},
+						{
+							"answer": "Other",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization performed a criticality analysis of organizational and external/third-party systems/system components/ system services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization use default accounts for external/third-party systems/system components/system services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 0
+						},
+						{
+							"answer": "Some systems/system services",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 4
+						}
+					]
+				},
+				{
+					"question" : "Do users have admin access to any organizational/third-party system/system component/system service ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 0
+						},
+						{
+							"answer": "No",
+							"score": 4
+						}
+					]
+				},
+				{
+					"question": "How long before a device is set to lock when not in use/a user is away from the device ?",
+					"answers": [
+						{
+							"answer": "Less than 10 minutes",
+							"score": 4
+						},
+						{
+							"answer": "10-15 minutes",
+							"score": 2
+						},
+						{
+							"answer": "More than 15 minutes",
+							"score": 1
+						},
+						{
+							"answer": "Never",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization limit access to data for any third-party or third-party system/system component/system service ?",
+					"answers": [
+						{
+							"answer": "Yes, access is limited to job role",
+							"score": 4
+						},
+						{
+							"answer": "Access limitation is partially implemented",
+							"score": 2
+						},
+						{
+							"answer": "No, access is not limited",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization have an up-to-date patch management plan ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "How does the organization complete updates ?",
+					"answers": [
+						{
+							"answer": "Manual,tested updates",
+							"score": 4
+						},
+						{
+							"answer": "Automatic updates",
+							"score": 2
+						},
+						{
+							"answer": "Only when prompted by the device/application",
+							"score": 1
+						},
+						{
+							"answer": "Never",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "How frequently are updates conducted ?",
+					"answers": [
+						{
+							"answer": "Weekly, when available",
+							"score": 4
+						},
+						{
+							"answer": "Monthly, when available",
+							"score": 2
+						},
+						{
+							"answer": "Annually",
+							"score": 1
+						},
+						{
+							"answer": "Other",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Is the organization using a firewall between the internal and external network ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the end devices of the organization have host-based firewalls installed ?",
+					"answers": [
+						{
+							"answer": "Yes, All end devices",
+							"score": 4
+						},
+						{
+							"answer" : "All critical end devices",
+							"score" : 3
+						},
+						{
+							"answer": "Some end devices",
+							"score": 2
+						},
+						{
+							"answer": "No end devices",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "How are organizational firewalls managed ?",
+					"answers": [
+						{
+							"answer": "IT department/staff",
+							"score": 4
+						},
+						{
+							"answer": "Consultants",
+							"score": 2
+						},
+						{
+							"answer": "Office staff",
+							"score": 1
+						},
+						{
+							"answer": "Uses default settings",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization use specialized accounts and credentials for firewall management access ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Are firewalls configured to log activity based on logging policies of the organization ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization use WIFI/wireless connections ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 0
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "What authentication method does the organization use for its wireless connections (Wifi)? (If the organization uses a wireless connection)",
+					"answers": [
+						{
+							"answer": "WEP Key",
+							"score": 4
+						},
+						{
+							"answer": "RADIUS (WFA 2 Enterprise)",
+							"score": 3
+						},
+						{
+							"answer": "WFA 2 personal",
+							"score": 1
+						},
+						{
+							"answer": "No password",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization changed the default password for its wireless connections ? (If a password based authentication is used)",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization changed the default configurations/passwords for network devices such as switches and routers ?",
+					"answers": [
+						{
+							"answer": "Yes, in all network devices",
+							"score": 4
+						},
+						{
+							"answer": "in some network devices",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization implemented security measures for networking devices such as port security, ACLs, console and virtual line securing ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization scan external systems/system components/ system services for rogue access points and unused services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				}
+			],
+			"maxScore": 80
+		},
+		{
+			"section": "Secure Communication",
+			"questions": [
+				{
+					"question": "Does the organization have a communication plan in place to communicate with third parties in case of security incidents, for reports etc. ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization have any policies/frameworks/agreements set, to manage the communication with organizational personnel/systems and third parties/external systems/external system services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization identified security requirements for information that is to be communicated based on the category of the information and the third-party it is to be communicated to ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Has the organization documented interface characteristics of the organizational/third-party systems/system components/system services that communicate information? ",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score" : 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the interface characteristics match the security requirements for the information to be communicated ? (if requirements have been selected)",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0 
+						}
+					]
+				},
+				{
+					"question": " Does the organization employ methods such as cryptography to secure the confidentiality and integrity of information that is communicated to/via third parties/ external systems/system services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				},
+				{
+					"question": "Does the organization take steps such as cryptography to secure the confidentiality and integrity of the relevant information that is at rest/stored in external systems/systems services ?",
+					"answers": [
+						{
+							"answer": "Yes",
+							"score": 4
+						},
+						{
+							"answer": "Partially",
+							"score": 2
+						},
+						{
+							"answer": "No",
+							"score": 0
+						}
+					]
+				}
+			],
+			"maxScore": 28
+		}
+	]
+}

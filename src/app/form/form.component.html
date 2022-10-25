@@ -1,0 +1,25 @@
+<div *ngIf="loaded">
+    <div class="content" *ngFor="let section of data.sections; let i = index">
+        <ng-container *ngIf="sectionIndex === i">
+            <p class="title has-text-centered">Section {{ sectionIndex + 1 }}: {{ section.section }}</p>
+            <div class="box">
+                <ol>
+                    <li *ngFor="let question of section.questions; let index = index">
+                        <p>{{ question.question }}</p>
+                        <ng-container *ngFor="let answer of question.answers">
+                            <label class="radio">
+                                <input type="radio" [name]="index"
+                                       [value]="answer.score" [class]="sectionIndex.toString()">
+                                {{ answer.answer }}
+                            </label><br>
+                        </ng-container>
+                    </li>
+                </ol>
+            </div>
+            <div class="has-text-right">
+                <button *ngIf="!end" class="button is-dark" (click)="next()">Next</button>
+                <button *ngIf="end" class="button is-dark" (click)="submit()">Submit</button>
+            </div>
+        </ng-container>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="box">
+    <div>
+      <div style="display: block">
+        <canvas baseChart
+          [data]="radarChartData"
+          [options]="radarChartOptions"
+          type="radar">
+        </canvas>
+      </div>
+    </div>
+
+    <p>Compliance in Organizational Hierarchy and Management was {{ scorePercentages.section1 }}%</p>
+    <p>Compliance in Risk Assessment was {{ scorePercentages.section2 }}%</p>
+    <p>Compliance in Assessments and Agreements was {{ scorePercentages.section3 }}%</p>
+    <p>Compliance in Information and External Systems and Service was {{ scorePercentages.section4 }}%</p>
+    <p>Compliance in Secure Communication was {{ scorePercentages.section5 }}%</p>
+</div>

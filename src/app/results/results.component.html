@@ -1,0 +1,10 @@
+<h1 class="title has-text-centered">Results</h1>
+
+<app-progress-bar [score]="score" [scoreValue]="scoreValue"></app-progress-bar>
+
+<br>
+
+<app-radar-chart *ngIf="loaded" 
+                [radarChartData]="radarChartData" 
+                [scorePercentages]="scorePercentages">
+</app-radar-chart>
